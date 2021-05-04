@@ -1,0 +1,83 @@
+main, option {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 3px solid cadetblue;
+    border-radius: 25px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgrey;
+  }
+  
+  button {
+    background-color: cadetblue;
+    color: lightgray;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid darkgray;
+  }
+
+  button:hover {
+    background-color: lightgray;
+    color:cadetblue;
+    border: 3px solid cadetblue;
+  }
+ 
+  select {
+    color:darkgray;
+  }
+  .container {
+    border-radius: 5px;
+    padding: 50px;
+  }
+
+  .header   {
+    color: lightgray;
+    background-color:cadetblue;
+    text-align: center;
+    font-size: 24pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    padding: 40px 0px;
+    width: 100%;
+    height: 85px;
+    z-index: 1;
+  }
+  body  {
+      font-size: 12pt;
+      color: cadetblue;
+      padding-top: 60px;
+      padding-bottom: 40px;
+  }
+
+  h1    {
+      color: cadetblue;
+      font-size: 20pt;
+      padding-top: 6%;
+      text-align: center;
+  }
+
+  label {
+      color: cadetblue;
+      margin-left: 5px;
+  }
+
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 7%;
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-image: url(./assets/images/pexels-henry-&-co-2341290.jpg)
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BleuFox Quote Request</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <header>Bleu Fox Design Studio
+            <img src="./assets/images/logo.png" alt="Fox">
+        </header>
+    </div>
+    <main>
+
+        <div class="container">
+            <h1>Request a Creative Meeting</h1>
+            <form action="#">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+
+                <label for="project">Project Type</label>
+                <select id="project" name="project">
+                    <option value="newsite">Brand New Website</option>
+                    <option value="existingBF">Edits/Updates to an Existing Website Created by Bleu Fox</option>
+                    <option value="existing3rd">Edits/Updates to an Existing Website (Not Created by Bleu Fox)</option>
+                    <option value="print">Print Media</option>
+                    <option value="social">Social Media Branding/Posts</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject"
+                    placeholder="Tell me about your creative needs and together we will bring them to life!"
+                    style="height:200px"></textarea>
+
+                <button type="submit" value="Submit">Sample Text</button>
+
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
